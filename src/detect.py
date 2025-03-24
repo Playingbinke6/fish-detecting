@@ -62,8 +62,8 @@ def detect_fish(video_path: str, cascade_path: str, output_path: str = None):
 
 
 if __name__ == '__main__':
-    VIDEO_PATH = os.path.join('videos', 'Test_ROV_video.mp4')
-    CASCADE_PATH = os.path.join('models', 'cascade.xml')
-    OUTPUT_PATH = os.path.join('videos', 'output_detected.mp4')
+    VIDEO_PATH = r'C:\Users\playi\PycharmProjects\fish-detecting\videos\Test_ROV_video_h264_decim.mp4'
+    CASCADE_PATH = r'C:\Users\playi\PycharmProjects\fish-detecting\models\cascade.xml'
+    OUTPUT_PATH = r'C:\Users\playi\PycharmProjects\fish-detecting\output'
 
     detect_fish(VIDEO_PATH, CASCADE_PATH, OUTPUT_PATH)

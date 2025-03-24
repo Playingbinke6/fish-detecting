@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<opencv_storage>
+<stage10>
+  <maxWeakCount>10</maxWeakCount>
+  <stageThreshold>-5.2250164747238159e-01</stageThreshold>
+  <weakClassifiers>
+    <_>
+      <internalNodes>
+        0 -1 470261 2.6750667020678520e-02</internalNodes>
+      <leafValues>
+        -3.8961037993431091e-01 5.8295965194702148e-01</leafValues></_>
+    <_>
+      <internalNodes>
+        0 -1 599708 -1.2013291008770466e-02</internalNodes>
+      <leafValues>
+        7.1946811676025391e-01 -1.8718671798706055e-01</leafValues></_>
+    <_>
+      <internalNodes>
+        0 -1 499713 -1.5617996454238892e-02</internalNodes>
+      <leafValues>
+        4.7040212154388428e-01 -2.5664082169532776e-01</leafValues></_>
+    <_>
+      <internalNodes>
+        0 -1 423046 -1.1659728363156319e-02</internalNodes>
+      <leafValues>
+        4.4001778960227966e-01 -3.0321058630943298e-01</leafValues></_>
+    <_>
+      <internalNodes>
+        0 -1 212561 -1.0754501272458583e-04</internalNodes>
+      <leafValues>
+        6.5868383646011353e-01 -2.4099649488925934e-01</leafValues></_>
+    <_>
+      <internalNodes>
+        0 -1 89244 -2.5331130018457770e-04</internalNodes>
+      <leafValues>
+        5.4313302040100098e-01 -1.9986307621002197e-01</leafValues></_>
+    <_>
+      <internalNodes>
+        0 -1 696859 -5.5872082710266113e-02</internalNodes>
+      <leafValues>
+        -6.8132174015045166e-01 2.2127597033977509e-01</leafValues></_>
+    <_>
+      <internalNodes>
+        0 -1 681750 -2.0853515889029950e-04</internalNodes>
+      <leafValues>
+        6.8264412879943848e-01 -2.0838360488414764e-01</leafValues></_>
+    <_>
+      <internalNodes>
+        0 -1 537248 -1.5314919874072075e-03</internalNodes>
+      <leafValues>
+        4.6176490187644958e-01 -2.4727182090282440e-01</leafValues></_>
+    <_>
+      <internalNodes>
+        0 -1 391287 1.3863535597920418e-02</internalNodes>
+      <leafValues>
+        -1.4669375121593475e-01 7.0103931427001953e-01</leafValues></_></weakClassifiers></stage10>
+</opencv_storage>

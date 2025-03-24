@@ -49,9 +49,9 @@ def train_haar_cascade(
 
 
 if __name__ == '__main__':
-    OUTPUT_DIR = os.path.join('data', 'cascade')
-    VEC_FILE = os.path.join('datasets', 'positives.vec')
-    BG_FILE = os.path.join('datasets', 'bg.txt')
+    OUTPUT_DIR = "C:\\Users\\playi\\PycharmProjects\\fish-detecting\\output"
+    VEC_FILE = "C:\\Users\\playi\\PycharmProjects\\fish-detecting\\input data\\fish_all_40_30.vec"
+    BG_FILE = "C:\\Users\\playi\\PycharmProjects\\fish-detecting\\input data\\bg.txt"
 
     NUM_POS = 600
     NUM_NEG = 300
