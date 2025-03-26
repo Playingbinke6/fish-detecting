@@ -12,10 +12,15 @@ bg_file = r'C:\Users\playi\PycharmProjects\fish-detecting\input_data\HAAR-model-
 # Params
 num_pos = 400
 num_neg = 200
-num_stages = 10
+num_stages = 80
 width = 40
 height = 30
 feature_type = 'HAAR'  # or 'LBP'
+
+# Adjustable performance parameters
+precalc_val_buf_size = 4096  # Memory buffer for precomputed values (MB) (12GB total at 6144MB each)
+precalc_idx_buf_size = 4096  # Memory buffer for indices (MB)
+num_threads = 8  # Number of CPU cores to use (adjust based on system)
 
 # Build the command
 command = [
