@@ -12,7 +12,7 @@ bg_file = r'C:\Users\playi\PycharmProjects\fish-detecting\input_data\HAAR-model-
 # Params
 num_pos = 400
 num_neg = 200
-num_stages = 80
+num_stages = 63
 width = 40
 height = 30
 feature_type = 'HAAR'  # or 'LBP'
