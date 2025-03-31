@@ -19,22 +19,19 @@ def detect_fish(video_path: str, cascade_path: str, output_path: str = None):
     fish_cascade = cv2.CascadeClassifier(cascade_path)
 
     # Open video capture
-    cap = cv2.VideoCapture(video_path)
+    capture = cv2.VideoCapture(video_path)
 
     # Video writer if output path is provided
     writer = None
     if output_path:
-        scale_factor = 1
         fourcc = cv2.VideoWriter_fourcc(*'mp4v')
-        fps = cap.get(cv2.CAP_PROP_FPS)
-        width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
-        height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
-        width *= scale_factor
-        height *= scale_factor
+        fps = capture.get(cv2.CAP_PROP_FPS)
+        width = int(capture.get(cv2.CAP_PROP_FRAME_WIDTH))
+        height = int(capture.get(cv2.CAP_PROP_FRAME_HEIGHT))
         writer = cv2.VideoWriter(output_path, fourcc, fps, (width, height))
 
-    while cap.isOpened():
-        ret, frame = cap.read()
+    while capture.isOpened():
+        ret, frame = capture.read()
         if not ret:
             break
 
@@ -58,7 +55,7 @@ def detect_fish(video_path: str, cascade_path: str, output_path: str = None):
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break
 
-    cap.release()
+    capture.release()
     if writer:
         writer.release()
     cv2.destroyAllWindows()
