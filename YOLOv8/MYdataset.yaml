@@ -3,7 +3,7 @@ train: C:\Users\playi\PycharmProjects\fish-detecting\YOLOv8\dataset\images\train
 val: C:\Users\playi\PycharmProjects\fish-detecting\YOLOv8\dataset\images\val      # Path to the folder containing validation images
 
 # Number of classes (species)
-nc: 1  # according to the CNN sorting, 8 should be correct; doing 1 for testing
+nc: 1  # according to the CNN sorting, 8 should be correct; doing 1 for just tracking
 
 # Class names - these should match your fish species
 names:
