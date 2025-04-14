@@ -5,7 +5,7 @@ val: C:\Users\playi\PycharmProjects\fish-detecting\YOLOv8\dataset\images\val    
 # Number of classes (species)
 nc: 1  # according to the CNN sorting, 8 should be correct; doing 1 for just tracking
 
-# Class names - these should match fish species
+# Class names
 names:
   0: 'species_0'
   #1: 'species_1'
