@@ -1,10 +1,11 @@
 import os
+# This became a .py script/dev file for modifying the data of the YOLO model
 
-# Set paths to your labels directories
+# Set paths to label directories
 train_labels_dir = r'C:\Users\playi\PycharmProjects\fish-detecting\YOLOv8\dataset\labels\train'
 val_labels_dir = r'C:\Users\playi\PycharmProjects\fish-detecting\YOLOv8\dataset\labels\val'
 
-
+# Script to change all of the class identifiers to zero, meant to help with poor identification
 def correct_non_fish_labels(labels_dir):
     print(f"\nChecking and correcting labels in: {labels_dir}")
 
