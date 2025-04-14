@@ -24,6 +24,7 @@ if not cap.isOpened():
     exit()
 
 # Get video properties for saving output video
+# saving the video negatively affects performance of both models, so a separate recording process was used
 frame_width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
 frame_height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
 fps = cap.get(cv2.CAP_PROP_FPS)
