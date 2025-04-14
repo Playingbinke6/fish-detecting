@@ -1,4 +1,5 @@
 from ultralytics import YOLO
+# Saving the video negatively affects performance of both models, so a separate recording process was used
 
 # Load the YOLOv8 model
 model = YOLO(r'C:\Users\playi\PycharmProjects\fish-detecting\YOLOv8\yolov8n.pt')
