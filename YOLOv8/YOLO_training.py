@@ -6,16 +6,16 @@ def train_yolo_model():
     device = "cuda" if torch.cuda.is_available() else "cpu"
     print(f"Using device: {device}")
 
-    # Define the path to your dataset and configuration file
+    # Define the path to dataset and configuration file
     dataset_yaml = r'C:\Users\playi\PycharmProjects\fish-detecting\YOLOv8\MYdataset.yaml'
 
-    # Define the model architecture, use the YOLOv8 nano model here (yolov8n), can use others (yolov8s, yolov8m, etc.)
+    # Define the model architecture, use the YOLOv8 nano model (yolov8n), can use others (yolov8s, yolov8m, etc.)
     model_architecture = "yolov8s.yaml"
 
     # Define training parameters
     epochs = 50 # Like the stages of HAAR
     imgsz = 640  # Image size for training
-    batch_size = 24  # Adjust based on system resources (tower/laptop)
+    batch_size = 24  # Adjust based on system resources
 
     # Load the model and start training
     model = YOLO(model_architecture)  # Create a YOLO model
